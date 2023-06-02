@@ -78,6 +78,7 @@ Numero do loop 2
 Para ajudá-lo a entender esta forma do loop 'for', leia a sintaxe da seguinte forma:
 
 '   for     i   in    x   '
+
 'para cada item na coleção'
 
 Quanto à função 'range()', ela ajudará o loop 'for' a iterar sobre um único número, o 0 que
@@ -104,3 +105,9 @@ armario = [
 
 Em Python também podemos adicionar novos elementos a vetores e matrizes utilizando a função
 'append(valor)' que adicionará 'valor' ao final do vetor ou matriz.
+
+# Respostas
+
+1. (Contas)[./contas.py]
+1. (Leilão)[./leilao.py]
+1. (Estoque)[./estoque.py]
