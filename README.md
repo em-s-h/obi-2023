@@ -28,9 +28,9 @@ idade = 16
 
 ## Blocos de código
 
-Ao contrário de outras linguagens, python não usa colchetes '{}' para indicar onde um bloco de
+Ao contrário de outras linguagens, python não usa colchetes `{}` para indicar onde um bloco de
 código é iniciado e finalizado, ao em vez disso, ele usa indentação para indicar se um pedaço
-de código é de uma instrução 'if' ou se é uma instrução normal.
+de código é de uma instrução `if` ou se é uma instrução normal.
 
 Aqui está um exemplo de código escrito em javascript e em python, este código é o mesmo
 diferindo apenas na sintaxe:
@@ -54,7 +54,7 @@ if (x == y):
 
 ## Loops for
 
-Em Python, os loops 'for' são escritos de maneira diferente de outras linguagens de programação,
+Em Python, os loops `for` são escritos de maneira diferente de outras linguagens de programação,
 aqui está um exemplo comparando JavaScript com Python:
 
 ```javascript
@@ -75,9 +75,9 @@ Numero do loop 1
 Numero do loop 2
 ```
 
-Quanto à função 'range()', ela ajudará o loop 'for' a iterar sobre um único número, o 0 que
-passamos para a função indica em qual valor queremos iniciar a variável de iteração 'i' e o 3 é
-a quantidade de vezes que desejamos repetir o bloco de código dentro do loop 'for'.
+Quanto à função `range()`, ela ajudará o loop `for` a iterar sobre um único número, o 0 que
+passamos para a função indica em qual valor queremos iniciar a variável de iteração `i` e o 3 é
+a quantidade de vezes que desejamos repetir o bloco de código dentro do loop `for`.
 
 ## Vetores e matrizes
 
@@ -98,10 +98,11 @@ armario = [
 ```
 
 Em Python também podemos adicionar novos elementos a vetores e matrizes utilizando a função
-'append(valor)' que adicionará 'valor' ao final do vetor ou matriz.
+`append(valor)` que adicionará `valor` ao final do vetor ou matriz.
 
 # Respostas
 
 1. [Contas](./contas.py)
-1. [Leilão](./leilao.py)
-1. [Estoque](./estoque.py)
+2. [Leilão](./leilao.py)
+3. [Estoque](./estoque.py)
+4. [Toupeira](./toupeira.py)
