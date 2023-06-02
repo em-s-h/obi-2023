@@ -75,12 +75,6 @@ Numero do loop 1
 Numero do loop 2
 ```
 
-Para ajudá-lo a entender esta forma do loop 'for', leia a sintaxe da seguinte forma:
-
-'   for     i   in    x   '
-
-'para cada item na coleção'
-
 Quanto à função 'range()', ela ajudará o loop 'for' a iterar sobre um único número, o 0 que
 passamos para a função indica em qual valor queremos iniciar a variável de iteração 'i' e o 3 é
 a quantidade de vezes que desejamos repetir o bloco de código dentro do loop 'for'.
