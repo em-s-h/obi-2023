@@ -108,6 +108,6 @@ Em Python também podemos adicionar novos elementos a vetores e matrizes utiliza
 
 # Respostas
 
-1. (Contas)[./contas.py]
-1. (Leilão)[./leilao.py]
-1. (Estoque)[./estoque.py]
+1. [Contas](./contas.py)
+1. [Leilão](./leilao.py)
+1. [Estoque](./estoque.py)
