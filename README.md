@@ -92,7 +92,7 @@ As matrizes, por outro lado, são vetores que armazenam outros vetores.
 
 ```python
 armario = [
-    ["blusa", "calca"],
+    ["blusa", "calça"],
     ["sapato", "bota"]
 ]
 ```
@@ -100,9 +100,39 @@ armario = [
 Em Python também podemos adicionar novos elementos a vetores e matrizes utilizando a função
 `append(valor)` que adicionará `valor` ao final do vetor ou matriz.
 
+## Funções
+
+A criação de funções em Python é muito semelhante ao JavaScript, mas com algumas diferenças na
+sintaxe e na regra de que as funções devem ser definidas no início do nosso programa e antes de
+serem chamadas.
+
+Aqui esta um exemplo comparando a criação de uma função em JavaScript e em Python:
+
+```javascript
+function ola(pessoa) {
+    console.log(`Olá ${pessoa}!`);
+}
+
+ola("Emilly");
+```
+
+```python
+def ola(pessoa):
+    print("Olá {pessoa}!")
+
+ola("Emilly")
+```
+
+Saída:
+```shell
+Olá Emilly!
+```
+
 # Respostas
 
 1. [Contas](./contas.py)
 2. [Leilão](./leilao.py)
 3. [Estoque](./estoque.py)
+
+Esta resposta não foi submetida, portanto não sei se ela esta 100% correta.
 4. [Toupeira](./toupeira.py)

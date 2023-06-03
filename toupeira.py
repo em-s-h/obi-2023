@@ -1,5 +1,3 @@
-# O programa inicia na linha 68
-
 # Aqui definimos uma função que verifica se a sala atual está conectado a próxima sala,
 # retornando 'True' se estiverem conectadas e 'False' caso contrário.
 #
@@ -8,7 +6,8 @@
 # - 'proximo' representa a próxima sala;
 # - 'tuneis' contém o vetor 'tuneis' definido em nosso programa.
 def verificar_salas(atual, proximo, tuneis):
-    # Primeiro, iniciamos um loop 'for' que percorrerá os valores do vetor 'tuneis'.
+    # Primeiro, iniciamos um loop 'for' que será repetido para cada valor do vetor
+    # 'tuneis'.
     for i in range(0, len(tuneis)):
         # Depois disso, verificamos se a sala atual se conecta a próxima sala,
         # fazemos isso usando um recurso do Python que nos permite verificar se um
@@ -36,7 +35,8 @@ def verificar_salas(atual, proximo, tuneis):
 # - 'passeio' representa o passeio que foi sugerido; 
 # - 'tuneis' contém o vetor 'tuneis' definido em nosso programa.
 def verificar_passeio(passeio, tuneis):
-    # Primeiro, iniciamos um loop 'for' que percorrerá os valores do vetor 'passeio'.
+    # Primeiro, iniciamos um loop 'for' que será repetido para cada valor do vetor
+    # 'passeio'.
     for i in range(0, len(passeio)):
         # Depois fazemos uma verificação rápida para ver se a variável 'i' é o índice
         # do último segmento do vetor 'passeio', isso nos ajuda a evitar um erro de
@@ -85,13 +85,23 @@ for i in range(num_tuneis):
 num_sujest_passeio = int(input())
 passeios_possiveis = 0
 
+# Aqui iniciamos um loop 'for' que será repetido para cada sugestão de passeio.
 for i in range(num_sujest_passeio):
+    # Em seguida, armazenamos a sugestão de caminhada e separamos seus valores em
+    # um vetor.
     passeio = input()
     passeio = passeio.split()
+
+    # Aqui tiramos o primeiro valor do vetor 'passeio', fazemos isso porque o
+    # primeiro valor, o número de cômodos que esse passeio vai percorrer, não é
+    # necessário em nosso programa.
     passeio.pop(0)
 
+    # Aqui chamamos nossa função 'verificar_passeio()' e armazenamos o valor de
+    # retorno.
     passeio_e_possivel = verificar_passeio(passeio, tuneis)
 
+    # Se a passeio for possível, adicionamos 1 ao número de passeios possíveis.
     if passeio_e_possivel:
         passeios_possiveis += 1
 
